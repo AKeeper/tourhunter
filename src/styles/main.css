@@ -1,6 +1,6 @@
-*{
-    outline: 1px solid grey;
-}
+/**{*/
+    /*outline: 1px solid grey;*/
+/*}*/
 body{
     width: 2732px;
     text-align: center;
@@ -24,6 +24,7 @@ header{
 .header-menu-item{
     top: 50%;
     transform: translateY(-50%);
+
 }
 
 .header-menu-links a{
@@ -44,10 +45,53 @@ header p{
     color:  #2d4251;
     font-size: 22px;
     font-weight: bold;
-}
-.header-menu-contacts{
     text-align: left;
 }
 .header-menu-contacts a{
     color: #2d4251;
+}
+.header-menu-location>p>span{
+    position: absolute;
+    left: -3%;
+    top: 15%;
+}
+.header-menu-location>p>a{
+    font-family: Roboto;
+    color:  #2d4251;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.header-menu-button{
+    height: 7rem;
+}
+.header-menu-button img{
+    padding-right: 10px;
+}
+
+.header-menu-button button{
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    margin: 0 5%;
+    border: none;
+    border-bottom-left-radius: 25% 50%;
+    border-bottom-right-radius: 25% 50%;
+    border-top-left-radius: 25% 50%;
+    border-top-right-radius: 25% 50%;
+    color:  #2d4251;
+    font-size: 2rem ;
+    font-weight: bold;
+    height: 6rem;
+}
+.header-menu-button button p{
+    float: left;
+    margin: 0;
+}
+.header-menu-button button .glyphicon{
+    float: left;
+    padding-right: 5px;
+    top: 7px;
+}
+.header-dropdown{
+    left: 54%;
 }
