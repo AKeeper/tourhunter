@@ -1,6 +1,6 @@
-/**{*/
-    /*outline: 1px solid grey;*/
-/*}*/
+*{
+    outline: 1px solid grey;
+}
 body{
     width: 2732px;
     text-align: center;
