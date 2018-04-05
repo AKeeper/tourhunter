@@ -79,7 +79,7 @@ header p{
     border-top-left-radius: 25% 50%;
     border-top-right-radius: 25% 50%;
     color:  #2d4251;
-    font-size: 2rem ;
+    font-size: 2rem;
     font-weight: bold;
     height: 6rem;
 }
@@ -94,4 +94,6 @@ header p{
 }
 .header-dropdown{
     left: 54%;
+    font-size: 2rem;
+
 }
